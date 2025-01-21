@@ -1,0 +1,12 @@
+version: "2"
+authtoken: YOUR_AUTH_TOKEN
+tunnels:
+  portainer:
+    proto: http
+    addr: 192.168.56.101:9000
+  prometheus:
+    proto: http
+    addr: 192.168.56.101:9090
+  grafana:
+    proto: http
+    addr: 192.168.56.101:3000
