@@ -12,4 +12,4 @@ services:
     deploy:
       placement:
         constraints:
-          - node.hostname == swm-node-1
+          - node.hostname == swm-node-1 # Update node
