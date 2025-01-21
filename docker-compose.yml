@@ -5,7 +5,7 @@ services:
     image: ngrok/ngrok:latest
     restart: unless-stopped
     volumes:
-      - /home/vboxuser/ngrok.yml:/etc/ngrok.yml  # Updated path
+      - /home/vboxuser/ngrok.yml:/etc/ngrok.yml  # Update path
     command: start --config /etc/ngrok.yml --all
     ports:
       - "4040:4040"  # Ngrok Web Interface for monitoring
